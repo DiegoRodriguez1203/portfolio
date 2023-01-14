@@ -1,13 +1,13 @@
 import { useState } from 'react'
 import './App.css'
+import { Navbar } from './components/Navbar'
 
-import { Photo } from './components/Photo'
 
 function App() {
   
   return (
     <div className="App">
-      <Photo/>
+      <Navbar/>
     </div>
   )
 }
