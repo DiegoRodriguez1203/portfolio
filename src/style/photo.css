@@ -1,0 +1,68 @@
+.big-circle{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: flex-start;
+    animation-name: circle-rotate;
+    animation-duration: 10s;
+    animation-iteration-count:infinite;
+    
+    border: 5px solid aqua;
+    border-radius: 50%;
+    animation-timing-function : linear;
+    
+    
+}
+.big-circle2{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: flex-end;
+    animation-name: circle-rotate;
+    animation-duration: 10s;
+    animation-iteration-count:infinite;
+    margin-top: -310px;
+    border-radius: 50%;
+    border: 5px solid salmon;
+    animation-timing-function : linear;
+    
+    
+}
+.big-circle3{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    animation-name: circle-rotate;
+    animation-duration: 10s;
+    animation-iteration-count:infinite;
+    margin-top: -310px;
+    border-radius: 50%;
+    border: 5px solid yellow;
+    animation-timing-function : linear;
+    
+    
+}
+
+.circle-one{
+    animation-name: expanding;
+    animation-duration: 1s;
+    height: 15px;
+    width: 15px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+
+
+@keyframes expanding{
+    0%{transform:scale(0%);}
+    100%{transform:scale(100%);}
+}
+@keyframes circle-rotate{
+    0%{transform:rotate(0deg);}
+    100%{transform:rotate(360deg);}
+}
+@keyframes xd{
+    0%{border-top: transparent;}
+    100%{border-top: salmon ;}
+}
