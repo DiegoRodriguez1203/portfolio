@@ -1,5 +1,4 @@
 import '../style/button.css'
-import { useState } from 'react'
 
 export const Button = ({name ='About me', active=false}) =>{
     return(

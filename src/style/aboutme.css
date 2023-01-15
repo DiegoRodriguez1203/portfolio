@@ -1,0 +1,38 @@
+.aboutme-cont{
+    max-width: 900px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    font-size: 20px;
+    
+}
+
+.cont-first p{
+    width: 90%;
+    font-family: 'Questrial', sans-serif;
+    font-size: 1em;
+}
+
+.cont-second p{
+
+    width: 90%;
+    font-family: 'Questrial', sans-serif;
+    font-size: 1em;
+}
+.cont-first{
+    margin-left: 20px;
+}
+.cont-second{
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.cont-first-img{
+display: flex;
+justify-content: center;
+}
+.cont-first-img img{
+    width: 120px;
+    }
