@@ -1,0 +1,12 @@
+.proyect{
+    margin: 0 auto;
+    height: 200px;
+    width: 500px;
+    border: 1px solid #6d044d;
+}
+.proyect-img{
+    height: 280px;
+    width: 300px;
+    border: 1px solid #6d044d;
+    margin-top: -40px;
+}
