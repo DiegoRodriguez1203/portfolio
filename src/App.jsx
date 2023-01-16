@@ -2,6 +2,7 @@ import './App.css'
 import { Start } from './pages/Start'
 import {Navbar} from './components/Navbar'
 import {Aboutme} from './components/Aboutme'
+import { Adobe } from './components/Adobe'
 
 
 
@@ -11,7 +12,7 @@ function App() {
     <div className="App">
 
       <Navbar/>
-      <Aboutme/>
+      <Adobe/>
     </div>
   )
 }
