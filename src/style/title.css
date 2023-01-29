@@ -1,0 +1,43 @@
+
+
+.title{
+    font-size: 20px;
+}
+.title h1{
+    color: orangered;
+    font-size: 4em;
+    font-weight: 700;
+    line-height: 0;
+}
+
+.title h2{
+    font-family: 'Questrial', sans-serif;
+    color:#6d044d;
+    font-weight: 400;
+    font-size: 2em;
+    line-height: 0;
+}
+
+.title h3{
+    color:#6d044d;
+    font-weight: 300;
+    font-size: 1.5em;
+    line-height: 0;
+}
+
+/*RESUME*/
+
+.resume{
+    display: flex;
+    align-items: center;
+}
+.resume p{
+    font-family: 'Questrial', sans-serif;
+    font-size: 1.2em;
+    margin-left:25px ;
+}
+.square{
+    width: 10px;
+    height: 65px;
+    background-color:#6d044d;;
+}

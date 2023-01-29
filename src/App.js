@@ -1,25 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import { useState } from 'react'; 
+import { Routes, Route } from 'react-router-dom';
+import { Start } from './pages/Start'
+import {Navbar} from './components/Navbar'
+import {Aboutpage} from './pages/Aboutpage'
+import {Skillpage} from './pages/Skillpage'
+import {Proyectspage} from './pages/Proyectspage'
+import { GeneralProvider } from './context/reactcontext';
+import { useStartContext } from './context/reactcontext';
 
 function App() {
+  const startContext = useStartContext()
+  const [hidden, setHidden] = useState(false)
+  
+
   return (
+    
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="contstart">
+      <div className= {startContext ?'down':'up'} >
+       <Start/>
+       </div>
+       </div>
+       <div className= {startContext ?'navdown':'navup'} >
+      <Navbar/>
+      </div>
+      <div className= 'hidden' >
+<Routes>
+  <Route path='/' element = {<Aboutpage/>}/>
+  <Route path='/aboutme' element = {<Aboutpage/>}/>
+  <Route path='/skills' element = {<Skillpage/>}/>
+  <Route path='/proyects' element = {<Proyectspage/>}/>
+</Routes>
+</div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
+

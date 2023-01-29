@@ -1,0 +1,29 @@
+.adobe{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    background-color: aqua;
+}
+.adobe img{
+    width: 30px;
+}
+.adobe-logos{
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+}
+.adobe-text{  
+    display: flex;
+    width: 300px;
+}
+.adobe-rect{
+    width: 5px;
+    height: 50%;
+    margin: auto;
+    background-color: red;
+    margin-right: 15px;
+}
+.adobe-text p{
+    font-size: 20px;
+    color: red;
+}
