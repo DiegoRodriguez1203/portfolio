@@ -1,16 +1,17 @@
-import { Navbar } from "../components/Navbar";
-import { Proyect } from "../components/Proyect";
+import {Reference} from '../components/Reference'
+import { Navbar } from '../components/Navbar'
 import '../style/pages/pages.css'
 
 
-export const Proyectspage = () => {
+export const Referencespage = () => {
     return(
         <section className="page">
             <div className="nav-cont">
-                <Navbar act={2}/>
+                <Navbar act={3}/>
             </div>
+
             <div>
-                <Proyect/>
+                <Reference/>
             </div>
         </section>
     )

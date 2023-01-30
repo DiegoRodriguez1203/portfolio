@@ -1,8 +1,7 @@
 .adobe{
     display: flex;
     margin: 0 auto;
-    justify-content: space-evenly;
-    background-color: aqua;
+    justify-content: center;
 }
 .adobe img{
     width: 30px;

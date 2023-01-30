@@ -9,9 +9,9 @@ export const Links = () =>{
         
         <div className='cont-links' >
             <div className='links' >
-                <a href=""> <img src={github} alt="" /></a>
-                <a href=""><img src={behance} alt="" /></a>
-                <a href=""><img src={linkedin} alt="" /></a>
+                <a href="https://github.com/DiegoRodriguez1203"> <img src={github} alt="" /></a>
+                <a href="https://www.behance.net/diegorodriguez98"><img src={behance} alt="" /></a>
+                <a href="https://www.linkedin.com/in/diego-rodriguez1203/"><img src={linkedin} alt="" /></a>
             </div>
         </div>
 

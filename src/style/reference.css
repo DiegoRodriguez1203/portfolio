@@ -1,0 +1,33 @@
+.reference{
+    width: 390px;
+    height: 390px;
+    background-color: #A11477;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    padding: 10px;    
+}
+.reference img{
+    width:120px;
+    border-radius: 200px;
+}
+.bot-reference p {
+    font-size: 20px;
+    color: white;
+    font-family: 'Questrial', sans-serif;
+}
+.top-reference{
+    width: 80%;
+}
+.top-reference h2{
+    color: white;
+    margin: 0;
+}
+.top-reference h3{
+    color: white;
+    font-weight: 200;
+    text-decoration: underline;
+    margin: 0;
+}

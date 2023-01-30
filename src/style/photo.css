@@ -1,7 +1,7 @@
 .circle-border{
-    border: 2px solid orangered;
-    width: 250px;
-    height: 250px;
+    border: 2px solid #FD6D4C;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -10,13 +10,16 @@
 
 .circle-background{
     display: flex;
-    height: 220px;
-    width: 220px;
+    height: 270px;
+    width: 270px;
     border-radius: 50%;
-    background: linear-gradient(360deg, rgba(255,69,0,1) 0%, rgba(97,34,64,1) 100%);
+    background: linear-gradient(90deg, rgba(161,20,119,1) 0%, rgba(255,111,75,1) 100%);
     z-index: -1;
 }
-
+.circle-background img{
+margin-top: -20px;
+margin-left: -20px;
+}
 .big-circle{
     margin: auto;
     height: 210px;
@@ -35,7 +38,7 @@
     animation-duration: 1s;
     height: 15px;
     width: 15px;
-    background-color: orangered;
+    background-color: #FD6D4C;
     border-radius: 50%;
 }
 
@@ -52,10 +55,6 @@
     0%{transform:rotate(0deg);}
     100%{transform:rotate(360deg);}
 }
-@keyframes xd{
-    0%{border-top: transparent;}
-    100%{border-top: salmon ;}
-}
 
 
 
@@ -65,23 +64,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 250px;
-    height: 50px;
+    width: 300px;
+    height: 60px;
     border: 1px solid grey;
     background-color: white;
 }
 .links{
-    width: 200px;
-    height: 55px;
+    width: 250px;
+    height: 70px;
     display: flex;
     justify-content: space-evenly;
-    border: 2px solid orangered;
+    border: 2px solid #FD6D4C;
     background-color: transparent;
     align-items: center;
 }
 
 .links a img{
-    width: 40px;
+    width: 50px;
     border-radius: 50%;
     padding: 3px;
 }

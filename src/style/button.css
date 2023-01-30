@@ -8,24 +8,26 @@
 .button{
     width: 160px;
     height: 40px;
-    border: 2px solid orangered;
+    border: 2px solid #FD6D4C;
     background-color: transparent;
-    color:#6d044d ;
+    color:#A11477 ;
     margin: -4px 0px 0px 4px;
     border-radius: 0;
     transition: background-color 0.25s;
     transition:  0.25s;
+    font-weight: 600;
 }
 .active-button{
     width: 160px;
     height: 40px;
     color: white;
-    border: 2px solid orangered;
-    background-color: #61224e;
+    border: 2px solid #FD6D4C;
+    background-color: #A11477;
     margin: -4px 0px 0px 4px;
     border-radius: 0;
     transition: background-color 0.25s;
     transition:  0.25s;
+    font-weight: 600;
 }
 
 .button span{
@@ -35,3 +37,7 @@
     margin: 0px 0px 0px -5px;
 }
 
+.edu{
+    position: absolute;
+    
+}

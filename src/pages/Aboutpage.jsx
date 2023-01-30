@@ -1,11 +1,21 @@
 import { Aboutme } from '../components/Aboutme'
-import '../style/aboutme.css'
+import { Navbar } from '../components/Navbar'
+import '../style/pages/aboutpage.css'
+import { Start } from '../components/Start'
 
 
 export const Aboutpage = () =>{
     return(
         <section className='aboutpage'>
-        <Aboutme/>
+        <div>
+            <Start/>
+        </div>
+        <div>
+            <Navbar act={0}/>
+        </div>
+        <div>
+            <Aboutme/>
+        </div>
         </section>
     )
 }
