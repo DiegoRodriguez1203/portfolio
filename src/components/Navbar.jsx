@@ -17,9 +17,9 @@ export const Navbar = ({act}) =>{
                 <Button name="About me" active = {act1==0? true:false} />
             </div>
             </Link>
-            <Link to='/skills'>
+            <Link to='/knowledge'>
             <div onClick={()=>{setAct1(1)} }>
-            <Button name="Skills" active = {act1==1? true:false}/>
+            <Button name="Knowledge" active = {act1==1? true:false}/>
             </div>
             </Link>
             <Link to='/proyects'>
@@ -27,9 +27,9 @@ export const Navbar = ({act}) =>{
             <Button name="Proyects" active = {act1==2? true:false}/>
             </div>
             </Link>
-            <Link to='/references'>
+            <Link to='/skills'>
             <div onClick={()=>{setAct1(3)} }>
-            <Button name="References" active = {act1==3? true:false} />
+            <Button name="Skills" active = {act1==3? true:false} />
             </div>
             </Link>
         </nav>
